@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Collapse - Front Starter | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="/assets/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="/assets/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="/assets/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../documentation/assets/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section u-gradient-half-primary-v1 u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="index.html" aria-label="Front">
+            <img src="/assets/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Documentation -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../documentation/index.html">Documentation</a>
+              </li>
+              <!-- End Documentation -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.3
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_3">v1.3</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../documentation/assets/include/ajax/autocomplete-data-for-starter-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a class="active" href="collapse.html">Collapse</a></li>
+            <li><a href="cta.html">Call-to-action (CTA)</a></li>
+            <li><a href="datatables.html">Datatables</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="footers.html">Footers</a></li>
+            <li><a href="form-layouts.html">Form layouts</a></li>
+            <li><a href="form-wizard.html">Form wizard</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="header-layouts.html">Header layouts</a></li>
+            <li><a href="hero.html">Hero</a></li>
+            <li><a href="hero-subscribe.html">Hero Subscribe</a></li>
+            <li><a href="icon-blocks.html">Icon blocks</a></li>
+            <li><a href="indicators.html">Indicator</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="media-objects.html">Media Objects</a></li>
+            <li><a href="media-objects.html">Media Objects</a></li>
+            <li><a href="modal-window.html">Modal Window</a></li>
+            <li><a href="news-blogs.html">News Blogs</a></li>
+            <li><a href="pagination.html">Pagination</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="products-hero.html">Products hero</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="tabs.html">Tabs</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="unfold-dropdown.html">Unfold (Dropdown)</a></li>
+            <li><a href="unfold-sidebar.html">Unfold (Sidebar)</a></li>
+            <li><a href="video-player.html">Video Player</a></li>
+          </ul>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-10 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Collapse</h1>
+          <p class="lead font-weight-normal">Toggle the visibility of content across your project with a few classes and our JavaScript plugins.</p>
+        </div>
+
+        <div id="collapse-1" class="mb-9">
+          <h2 class="h4">Collapse #1 <a class="anchorjs-link" href="#collapse-1" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div id="paymentDetails" class="accordion">
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="cardHeadingOne">
+                  <div class="row justify-content-sm-between align-items-sm-center collapsed" data-toggle="collapse" data-target="#cardOne" aria-expanded="false" aria-controls="cardOne" role="button">
+                    <div class="col-md-6 mb-2 mb-md-0">
+                      <div class="media align-items-center">
+                        <img class="max-width-9 mr-3" src="/assets/100x60/img1.jpg" alt="Image Description">
+                        <div class="media-body">
+                          <span class="font-size-14">Visa Card ending in 9909</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 col-md-2 text-md-right">
+                      <span class="u-label u-label--sm u-label--primary">Primary</span>
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <span class="d-block font-size-14">Expires: 12/2019</span>
+                    </div>
+                    <div class="col-2 col-md-1 text-right">
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </div>
+                  </div>
+                </div>
+                <div id="cardOne" class="collapse" aria-labelledby="cardHeadingOne" data-parent="#paymentDetails">
+                  <div class="card-body px-4">
+                    <!-- Card Details -->
+                    <div class="row">
+                      <div class="col-sm-7 mb-2 mb-sm-0">
+                        <h4 class="h6 mb-1">Natalie Curtis</h4>
+                        <span class="d-block font-size-14 mb-1">Bank of America</span>
+                        <p class="small">
+                          <span class="fa fa-info-circle mr-1"></span>
+                          Use this card to add funds to Your Front Balance. <a href="#">See Benefits</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-5 mb-2 mb-sm-0">
+                        <h5 class="h6 mb-0">Billing address</h5>
+                        <h5 class="h6">Brian Robson</h5>
+                        <address class="font-size-14">
+                          77408 Satterfield Motorway<br>
+                          Suite 469 New Antonetta, BC K3L6P6<br>
+                          New York, NY, 09122-9122<br>
+                          United States
+                        </address>
+                        <button type="button" class="btn btn-xs u-btn-secondary--air">Delete</button>
+                        <button type="button" class="btn btn-xs btn-primary">Edit</button>
+                      </div>
+                    </div>
+                    <!-- End Card Details -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="cardHeadingTwo">
+                  <div class="row justify-content-sm-between align-items-sm-center collapsed" data-toggle="collapse" data-target="#cardTwo" aria-expanded="false" aria-controls="cardTwo" role="button">
+                    <div class="col-md-6 mb-2 mb-md-0">
+                      <div class="media align-items-center">
+                        <img class="max-width-9 mr-3" src="/assets/100x60/img2.jpg" alt="Image Description">
+                        <div class="media-body">
+                          <span class="d-block font-size-14">Master Card ending in 1421</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 col-md-2 text-md-right">
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <span class="font-size-14">Expires: 06/2021</span>
+                    </div>
+                    <div class="col-2 col-md-1 text-right">
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </div>
+                  </div>
+                </div>
+                <div id="cardTwo" class="collapse" aria-labelledby="cardHeadingTwo" data-parent="#paymentDetails">
+                  <div class="card-body px-4">
+                    <!-- Card Details -->
+                    <div class="row">
+                      <div class="col-sm-7 mb-2 mb-sm-0">
+                        <h4 class="h6 mb-1">Natalie Curtis</h4>
+                        <span class="d-block font-size-14 mb-1">Payoneer</span>
+                        <p class="small">
+                          <span class="fa fa-info-circle mr-1"></span>
+                          Use this card to add funds to Your Front Balance. <a href="#">See Benefits</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-5 mb-2 mb-sm-0">
+                        <h5 class="h6 mb-0">Billing address</h5>
+                        <h5 class="h6">Brian Robson</h5>
+                        <address class="font-size-14">
+                          9455 NE ALDERWOOD RD<br>
+                          C/O UZW-FH PORTLAND OREGON 97252<br>
+                          PORTLAND, OR, 97252-1777<br>
+                          United States
+                        </address>
+                        <button type="button" class="btn btn-xs u-btn-secondary--air">Delete</button>
+                        <button type="button" class="btn btn-xs btn-primary">Edit</button>
+                      </div>
+                    </div>
+                    <!-- End Card Details -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="cardHeadingThree">
+                  <div class="row justify-content-sm-between align-items-sm-center collapsed" data-toggle="collapse" data-target="#cardThree" aria-expanded="false" aria-controls="cardThree" role="button">
+                    <div class="col-md-6 mb-2 mb-md-0">
+                      <div class="media align-items-center">
+                        <img class="max-width-9 mr-3" src="/assets/100x60/img3.jpg" alt="Image Description">
+                        <div class="media-body">
+                          <span class="d-block font-size-14">Discover ending in 4283</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 col-md-2 text-md-right">
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <span class="text-danger font-size-14">Expired: 03/2018</span>
+                    </div>
+                    <div class="col-2 col-md-1 text-right">
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </div>
+                  </div>
+                </div>
+                <div id="cardThree" class="collapse" aria-labelledby="cardHeadingThree" data-parent="#paymentDetails">
+                  <div class="card-body px-4">
+                    <!-- Card Details -->
+                    <div class="row">
+                      <div class="col-sm-7 mb-2 mb-sm-0">
+                        <h4 class="h6 mb-1">Natalie Curtis</h4>
+                        <span class="d-block font-size-14 mb-1">Discover Network</span>
+                        <p class="small">
+                          <span class="fa fa-info-circle mr-1"></span>
+                          Use this card to add funds to Your Front Balance. <a href="#">See Benefits</a>
+                        </p>
+                      </div>
+                      <div class="col-sm-5 mb-2 mb-sm-0">
+                        <h5 class="h6 mb-0">Billing address</h5>
+                        <h5 class="h6">Brian Robson</h5>
+                        <address class="font-size-14">
+                          63703 Greenfelder Center Suite<br>
+                          767 South Jennings, QC Y4E-1K9<br>
+                          United States
+                        </address>
+                        <button type="button" class="btn btn-xs u-btn-secondary--air">Delete</button>
+                        <button type="button" class="btn btn-xs btn-primary">Edit</button>
+                      </div>
+                    </div>
+                    <!-- End Card Details -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;div id="paymentDetails" class="accordion"&gt;
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="cardHeadingOne"&gt;
+                      &lt;div class="row justify-content-sm-between align-items-sm-center collapsed" data-toggle="collapse" data-target="#cardOne" aria-expanded="false" aria-controls="cardOne" role="button"&gt;
+                        &lt;div class="col-md-6 mb-2 mb-md-0"&gt;
+                          &lt;div class="media align-items-center"&gt;
+                            &lt;img class="max-width-9 mr-3" src="/assets/100x60/img1.jpg" alt="Image Description"&gt;
+                            &lt;div class="media-body"&gt;
+                              &lt;span class="font-size-14"&gt;Visa Card ending in 9909&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-4 col-md-2 text-md-right"&gt;
+                          &lt;span class="u-label u-label--sm u-label--primary"&gt;Primary&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-6 col-md-3"&gt;
+                          &lt;span class="d-block font-size-14"&gt;Expires: 12/2019&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-2 col-md-1 text-right"&gt;
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="cardOne" class="collapse" aria-labelledby="cardHeadingOne" data-parent="#paymentDetails"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        &lt;!-- Card Details --&gt;
+                        &lt;div class="row"&gt;
+                          &lt;div class="col-sm-7 mb-2 mb-sm-0"&gt;
+                            &lt;h4 class="h6 mb-1"&gt;Natalie Curtis&lt;/h4&gt;
+                            &lt;span class="d-block font-size-14 mb-1"&gt;Bank of America&lt;/span&gt;
+                            &lt;p class="small"&gt;
+                              &lt;span class="fa fa-info-circle mr-1"&gt;&lt;/span&gt;
+                              Use this card to add funds to Your Front Balance. &lt;a href="#"&gt;See Benefits&lt;/a&gt;
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;div class="col-sm-5 mb-2 mb-sm-0"&gt;
+                            &lt;h5 class="h6 mb-0"&gt;Billing address&lt;/h5&gt;
+                            &lt;h5 class="h6"&gt;Brian Robson&lt;/h5&gt;
+                            &lt;address class="font-size-14"&gt;
+                              77408 Satterfield Motorway&lt;br&gt;
+                              Suite 469 New Antonetta, BC K3L6P6&lt;br&gt;
+                              New York, NY, 09122-9122&lt;br&gt;
+                              United States
+                            &lt;/address&gt;
+                            &lt;button type="button" class="btn btn-xs u-btn-secondary--air"&gt;Delete&lt;/button&gt;
+                            &lt;button type="button" class="btn btn-xs btn-primary"&gt;Edit&lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Details --&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="cardHeadingTwo"&gt;
+                      &lt;div class="row justify-content-sm-between align-items-sm-center collapsed" data-toggle="collapse" data-target="#cardTwo" aria-expanded="false" aria-controls="cardTwo" role="button"&gt;
+                        &lt;div class="col-md-6 mb-2 mb-md-0"&gt;
+                          &lt;div class="media align-items-center"&gt;
+                            &lt;img class="max-width-9 mr-3" src="/assets/100x60/img2.jpg" alt="Image Description"&gt;
+                            &lt;div class="media-body"&gt;
+                              &lt;span class="d-block font-size-14"&gt;Master Card ending in 1421&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-4 col-md-2 text-md-right"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-6 col-md-3"&gt;
+                          &lt;span class="font-size-14"&gt;Expires: 06/2021&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-2 col-md-1 text-right"&gt;
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="cardTwo" class="collapse" aria-labelledby="cardHeadingTwo" data-parent="#paymentDetails"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        &lt;!-- Card Details --&gt;
+                        &lt;div class="row"&gt;
+                          &lt;div class="col-sm-7 mb-2 mb-sm-0"&gt;
+                            &lt;h4 class="h6 mb-1"&gt;Natalie Curtis&lt;/h4&gt;
+                            &lt;span class="d-block font-size-14 mb-1"&gt;Payoneer&lt;/span&gt;
+                            &lt;p class="small"&gt;
+                              &lt;span class="fa fa-info-circle mr-1"&gt;&lt;/span&gt;
+                              Use this card to add funds to Your Front Balance. &lt;a href="#"&gt;See Benefits&lt;/a&gt;
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;div class="col-sm-5 mb-2 mb-sm-0"&gt;
+                            &lt;h5 class="h6 mb-0"&gt;Billing address&lt;/h5&gt;
+                            &lt;h5 class="h6"&gt;Brian Robson&lt;/h5&gt;
+                            &lt;address class="font-size-14"&gt;
+                              9455 NE ALDERWOOD RD&lt;br&gt;
+                              C/O UZW-FH PORTLAND OREGON 97252&lt;br&gt;
+                              PORTLAND, OR, 97252-1777&lt;br&gt;
+                              United States
+                            &lt;/address&gt;
+                            &lt;button type="button" class="btn btn-xs u-btn-secondary--air"&gt;Delete&lt;/button&gt;
+                            &lt;button type="button" class="btn btn-xs btn-primary"&gt;Edit&lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Details --&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="cardHeadingThree"&gt;
+                      &lt;div class="row justify-content-sm-between align-items-sm-center collapsed" data-toggle="collapse" data-target="#cardThree" aria-expanded="false" aria-controls="cardThree" role="button"&gt;
+                        &lt;div class="col-md-6 mb-2 mb-md-0"&gt;
+                          &lt;div class="media align-items-center"&gt;
+                            &lt;img class="max-width-9 mr-3" src="/assets/100x60/img3.jpg" alt="Image Description"&gt;
+                            &lt;div class="media-body"&gt;
+                              &lt;span class="d-block font-size-14"&gt;Discover ending in 4283&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-4 col-md-2 text-md-right"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-6 col-md-3"&gt;
+                          &lt;span class="text-danger font-size-14"&gt;Expired: 03/2018&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-2 col-md-1 text-right"&gt;
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="cardThree" class="collapse" aria-labelledby="cardHeadingThree" data-parent="#paymentDetails"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        &lt;!-- Card Details --&gt;
+                        &lt;div class="row"&gt;
+                          &lt;div class="col-sm-7 mb-2 mb-sm-0"&gt;
+                            &lt;h4 class="h6 mb-1"&gt;Natalie Curtis&lt;/h4&gt;
+                            &lt;span class="d-block font-size-14 mb-1"&gt;Discover Network&lt;/span&gt;
+                            &lt;p class="small"&gt;
+                              &lt;span class="fa fa-info-circle mr-1"&gt;&lt;/span&gt;
+                              Use this card to add funds to Your Front Balance. &lt;a href="#"&gt;See Benefits&lt;/a&gt;
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;div class="col-sm-5 mb-2 mb-sm-0"&gt;
+                            &lt;h5 class="h6 mb-0"&gt;Billing address&lt;/h5&gt;
+                            &lt;h5 class="h6"&gt;Brian Robson&lt;/h5&gt;
+                            &lt;address class="font-size-14"&gt;
+                              63703 Greenfelder Center Suite&lt;br&gt;
+                              767 South Jennings, QC Y4E-1K9&lt;br&gt;
+                              United States
+                            &lt;/address&gt;
+                            &lt;button type="button" class="btn btn-xs u-btn-secondary--air"&gt;Delete&lt;/button&gt;
+                            &lt;button type="button" class="btn btn-xs btn-primary"&gt;Edit&lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Details --&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div id="collapse-2" class="mb-9">
+          <h2 class="h4">Collapse #2 <a class="anchorjs-link" href="#collapse-2" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div id="FAQCollapse" class="accordion">
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="FAQHeadingOne">
+                  <div class="collapsed" data-toggle="collapse" data-target="#FAQOne" aria-expanded="false" aria-controls="FAQOne" role="button">
+                    <h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0">
+                      Can I cancel at anytime?
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </h3>
+                  </div>
+                </div>
+                <div id="FAQOne" class="collapse" aria-labelledby="FAQHeadingOne" data-parent="#FAQCollapse">
+                  <div class="card-body px-4">
+                    Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="FAQHeadingTwo">
+                  <div class="collapsed" data-toggle="collapse" data-target="#FAQTwo" aria-expanded="false" aria-controls="FAQTwo" role="button">
+                    <h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0">
+                      My team has credits. How do we use them?
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </h3>
+                  </div>
+                </div>
+                <div id="FAQTwo" class="collapse" aria-labelledby="FAQHeadingTwo" data-parent="#FAQCollapse">
+                  <div class="card-body px-4">
+                    Once your team signs up for a subscription plan. enim eiusmod high life accusamus eoset dignissimos.
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="FAQHeadingThree">
+                  <div class="collapsed" data-toggle="collapse" data-target="#FAQThree" aria-expanded="false" aria-controls="FAQThree" role="button">
+                    <h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0">
+                      How does Front's pricing work?
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </h3>
+                  </div>
+                </div>
+                <div id="FAQThree" class="collapse" aria-labelledby="FAQHeadingThree" data-parent="#FAQCollapse">
+                  <div class="card-body px-4">
+                    Our subscriptions are tiered. based on the number of people enim eiusmod high life accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="FAQHeadingFour">
+                  <div class="collapsed" data-toggle="collapse" data-target="#FAQFour" aria-expanded="false" aria-controls="FAQFour" role="button">
+                    <h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0">
+                      How secure is Front?
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </h3>
+                  </div>
+                </div>
+                <div id="FAQFour" class="collapse" aria-labelledby="FAQHeadingFour" data-parent="#FAQCollapse">
+                  <div class="card-body px-4">
+                    Protecting the data you trust to Front is our first priority. at vero eoset dignissimos ducimus qui blanditiis.
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card u-card-collapse">
+                <div class="card-header px-4" id="FAQHeadingFive">
+                  <div class="collapsed" data-toggle="collapse" data-target="#FAQFive" aria-expanded="false" aria-controls="FAQFive" role="button">
+                    <h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0">
+                      What is your refund policy?
+                      <span class="fa fa-angle-up u-card-collapse__heading-icon"></span>
+                    </h3>
+                  </div>
+                </div>
+                <div id="FAQFive" class="collapse" aria-labelledby="FAQHeadingFive" data-parent="#FAQCollapse">
+                  <div class="card-body px-4">
+                    We do not offer refunds apart leggings occaecat craft beer farm-to-table. raw leggings occaecat craft.
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;div id="FAQCollapse" class="accordion"&gt;
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="FAQHeadingOne"&gt;
+                      &lt;div class="collapsed" data-toggle="collapse" data-target="#FAQOne" aria-expanded="false" aria-controls="FAQOne" role="button"&gt;
+                        &lt;h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0"&gt;
+                          Can I cancel at anytime?
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/h3&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="FAQOne" class="collapse" aria-labelledby="FAQHeadingOne" data-parent="#FAQCollapse"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="FAQHeadingTwo"&gt;
+                      &lt;div class="collapsed" data-toggle="collapse" data-target="#FAQTwo" aria-expanded="false" aria-controls="FAQTwo" role="button"&gt;
+                        &lt;h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0"&gt;
+                          My team has credits. How do we use them?
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/h3&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="FAQTwo" class="collapse" aria-labelledby="FAQHeadingTwo" data-parent="#FAQCollapse"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        Once your team signs up for a subscription plan. enim eiusmod high life accusamus eoset dignissimos.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="FAQHeadingThree"&gt;
+                      &lt;div class="collapsed" data-toggle="collapse" data-target="#FAQThree" aria-expanded="false" aria-controls="FAQThree" role="button"&gt;
+                        &lt;h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0"&gt;
+                          How does Front's pricing work?
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/h3&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="FAQThree" class="collapse" aria-labelledby="FAQHeadingThree" data-parent="#FAQCollapse"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        Our subscriptions are tiered. based on the number of people enim eiusmod high life accusamus terry richardson ad squid.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="FAQHeadingFour"&gt;
+                      &lt;div class="collapsed" data-toggle="collapse" data-target="#FAQFour" aria-expanded="false" aria-controls="FAQFour" role="button"&gt;
+                        &lt;h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0"&gt;
+                          How secure is Front?
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/h3&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="FAQFour" class="collapse" aria-labelledby="FAQHeadingFour" data-parent="#FAQCollapse"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        Protecting the data you trust to Front is our first priority. at vero eoset dignissimos ducimus qui blanditiis.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card u-card-collapse"&gt;
+                    &lt;div class="card-header px-4" id="FAQHeadingFive"&gt;
+                      &lt;div class="collapsed" data-toggle="collapse" data-target="#FAQFive" aria-expanded="false" aria-controls="FAQFive" role="button"&gt;
+                        &lt;h3 class="h6 d-flex justify-content-between align-items-center font-weight-normal u-card-collapse__heading mb-0"&gt;
+                          What is your refund policy?
+                          &lt;span class="fa fa-angle-up u-card-collapse__heading-icon"&gt;&lt;/span&gt;
+                        &lt;/h3&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id="FAQFive" class="collapse" aria-labelledby="FAQHeadingFive" data-parent="#FAQCollapse"&gt;
+                      &lt;div class="card-body px-4"&gt;
+                        We do not offer refunds apart leggings occaecat craft beer farm-to-table. raw leggings occaecat craft.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="/assets/jquery/dist/jquery.min.js"></script>
+  <script src="/assets/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/assets/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/assets/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="/assets/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../documentation/assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="/assets/hs.core.js"></script>
+  <script src="/assets/components/hs.header.js"></script>
+  <script src="/assets/components/hs.unfold.js"></script>
+  <script src="/assets/components/hs.go-to.js"></script>
+  <script src="/assets/components/hs.scroll-nav.js"></script>
+  <script src="../documentation/assets/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 767,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

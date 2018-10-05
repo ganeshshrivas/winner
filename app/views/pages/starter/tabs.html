@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Tabs - Front Starter | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="/assets/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="/assets/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="/assets/bootstrap-select/dist/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="/assets/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../documentation/assets/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section u-gradient-half-primary-v1 u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="index.html" aria-label="Front">
+            <img src="/assets/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Documentation -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../documentation/index.html">Documentation</a>
+              </li>
+              <!-- End Documentation -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.3
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_3">v1.3</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../documentation/assets/include/ajax/autocomplete-data-for-starter-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="collapse.html">Collapse</a></li>
+            <li><a href="cta.html">Call-to-action (CTA)</a></li>
+            <li><a href="datatables.html">Datatables</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="footers.html">Footers</a></li>
+            <li><a href="form-layouts.html">Form layouts</a></li>
+            <li><a href="form-wizard.html">Form wizard</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="header-layouts.html">Header layouts</a></li>
+            <li><a href="hero.html">Hero</a></li>
+            <li><a href="hero-subscribe.html">Hero Subscribe</a></li>
+            <li><a href="icon-blocks.html">Icon blocks</a></li>
+            <li><a href="indicators.html">Indicator</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="media-objects.html">Media Objects</a></li>
+            <li><a href="modal-window.html">Modal Window</a></li>
+            <li><a href="news-blogs.html">News Blogs</a></li>
+            <li><a href="pagination.html">Pagination</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="products-hero.html">Products hero</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a class="active" href="tabs.html">Tabs</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="unfold-dropdown.html">Unfold (Dropdown)</a></li>
+            <li><a href="unfold-sidebar.html">Unfold (Sidebar)</a></li>
+            <li><a href="video-player.html">Video Player</a></li>
+          </ul>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-10 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Tabs</h1>
+          <p class="lead font-weight-normal">Examples of tabbable panes of local content.</p>
+        </div>
+
+        <div id="tabs-1" class="mb-9">
+          <h2 class="h4">Tabs v1 <a class="anchorjs-link" href="#tabs-1" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <!-- Nav -->
+            <div class="u-tab u-tab--md mb-md-4">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-md-5 order-md-2 text-md-right">
+                  <!-- Select -->
+                  <select class="js-select u-select" data-width="fit" data-style="bg-transparent text-secondary font-size-14 font-weight-normal pl-0">
+                    <option value="taskSelect1" title="View" selected>Completed tasks</option>
+                    <option value="taskSelect2">Incomplete tasks</option>
+                    <option value="taskSelect3">All tasks</option>
+                  </select>
+                  <!-- End Select -->
+
+                  <!-- Select -->
+                  <select class="js-select u-select" data-width="fit" data-style="bg-transparent text-secondary font-size-14 font-weight-normal">
+                    <option value="sortSelect1" title="Sort" selected>None</option>
+                    <option value="sortSelect2">Project</option>
+                    <option value="sortSelect3">Due date</option>
+                    <option value="sortSelect4">Likes</option>
+                  </select>
+                  <!-- End Select -->
+                </div>
+
+                <div class="col-md-7 order-md-1">
+                  <!-- Nav Pills -->
+                  <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item u-tab__nav-item">
+                      <a class="nav-link u-tab__nav-link active" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one" aria-selected="true">Assigned</a>
+                    </li>
+                    <li class="nav-item u-tab__nav-item">
+                      <a class="nav-link u-tab__nav-link" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two" aria-selected="false">Calendar</a>
+                    </li>
+                    <li class="nav-item u-tab__nav-item">
+                      <a class="nav-link u-tab__nav-link" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-three" aria-selected="false">Progress</a>
+                    </li>
+                    <li class="nav-item u-tab__nav-item">
+                      <a class="nav-link u-tab__nav-link" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab" aria-controls="pills-four" aria-selected="false">Files</a>
+                    </li>
+                  </ul>
+                  <!-- End Nav Pills -->
+                </div>
+              </div>
+            </div>
+            <!-- End Nav -->
+
+            <!-- Nav Content -->
+            <div class="tab-content" id="pills-tabContent">
+              <!-- Content One -->
+              <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+                This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key. Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial in keeping the project in line to completion. The time has come to bring those ideas and plans to life. This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+              </div>
+              <!-- End Content One -->
+
+              <!-- Content Two -->
+              <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                <div class="text-center py-4">
+                  <div class="w-md-80 w-lg-50 text-center mx-auto">
+                    <img class="w-100 mb-7" src="/assets/flat-icons/events-flat-concept-illustration.svg" alt="SVG Illustration">
+                    <h4 class="h5 font-weight-normal">All due dates to tasks &amp; other notes in this project will appear here.</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End Content Two -->
+
+              <!-- Content Three -->
+              <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                <div class="text-center py-4">
+                  <div class="w-md-80 w-lg-50 text-center mx-auto">
+                    <img class="w-100 mb-7" src="/assets/flat-icons/data-report-flat-concept-illustration.svg" alt="SVG Illustration">
+                    <h4 class="h5 font-weight-normal">All progress, data analysis to tasks in this project will appear here.</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End Content Three -->
+
+              <!-- Content Four -->
+              <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
+                <div class="text-center py-4">
+                  <div class="w-md-80 w-lg-50 text-center mx-auto">
+                    <img class="w-100 mb-7" src="/assets/flat-icons/image-upload-flat-concept-illustration.svg" alt="SVG Illustration">
+                    <h4 class="h5 font-weight-normal">All attachments to tasks &amp; conversations in this project will appear here.</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End Content Four -->
+            </div>
+            <!-- End Nav Content -->
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-html" data-lang="html">
+                &lt;!-- Nav --&gt;
+                &lt;div class="u-tab u-tab--md mb-md-4"&gt;
+                  &lt;div class="row justify-content-between align-items-center"&gt;
+                    &lt;div class="col-md-5 order-md-2 text-md-right"&gt;
+                      &lt;!-- Select --&gt;
+                      &lt;select class="js-select u-select" data-width="fit" data-style="bg-transparent text-secondary font-size-14 font-weight-normal pl-0"&gt;
+                        &lt;option value="taskSelect1" title="View" selected&gt;Completed tasks&lt;/option&gt;
+                        &lt;option value="taskSelect2"&gt;Incomplete tasks&lt;/option&gt;
+                        &lt;option value="taskSelect3"&gt;All tasks&lt;/option&gt;
+                      &lt;/select&gt;
+                      &lt;!-- End Select --&gt;
+
+                      &lt;!-- Select --&gt;
+                      &lt;select class="js-select u-select" data-width="fit" data-style="bg-transparent text-secondary font-size-14 font-weight-normal"&gt;
+                        &lt;option value="sortSelect1" title="Sort" selected&gt;None&lt;/option&gt;
+                        &lt;option value="sortSelect2"&gt;Project&lt;/option&gt;
+                        &lt;option value="sortSelect3"&gt;Due date&lt;/option&gt;
+                        &lt;option value="sortSelect4"&gt;Likes&lt;/option&gt;
+                      &lt;/select&gt;
+                      &lt;!-- End Select --&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-7 order-md-1"&gt;
+                      &lt;!-- Nav Pills --&gt;
+                      &lt;ul class="nav nav-pills" id="pills-tab" role="tablist"&gt;
+                        &lt;li class="nav-item u-tab__nav-item"&gt;
+                          &lt;a class="nav-link u-tab__nav-link active" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one" aria-selected="true"&gt;Assigned&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item u-tab__nav-item"&gt;
+                          &lt;a class="nav-link u-tab__nav-link" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two" aria-selected="false"&gt;Calendar&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item u-tab__nav-item"&gt;
+                          &lt;a class="nav-link u-tab__nav-link" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-three" aria-selected="false"&gt;Progress&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item u-tab__nav-item"&gt;
+                          &lt;a class="nav-link u-tab__nav-link" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab" aria-controls="pills-four" aria-selected="false"&gt;Files&lt;/a&gt;
+                        &lt;/li&gt;
+                      &lt;/ul&gt;
+                      &lt;!-- End Nav Pills --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Nav --&gt;
+
+                &lt;!-- Nav Content --&gt;
+                &lt;div class="tab-content" id="pills-tabContent"&gt;
+                  &lt;!-- Content One --&gt;
+                  &lt;div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab"&gt;
+                    This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key. Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial in keeping the project in line to completion. The time has come to bring those ideas and plans to life. This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+                  &lt;/div&gt;
+                  &lt;!-- End Content One --&gt;
+
+                  &lt;!-- Content Two --&gt;
+                  &lt;div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab"&gt;
+                    &lt;div class="text-center py-4"&gt;
+                      &lt;div class="w-md-80 w-lg-50 text-center mx-auto"&gt;
+                        &lt;img class="w-100 mb-7" src="/assets/flat-icons/events-flat-concept-illustration.svg" alt="SVG Illustration"&gt;
+                        &lt;h4 class="h5 font-weight-normal"&gt;All due dates to tasks &amp; other notes in this project will appear here.&lt;/h4&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Content Two --&gt;
+
+                  &lt;!-- Content Three --&gt;
+                  &lt;div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab"&gt;
+                    &lt;div class="text-center py-4"&gt;
+                      &lt;div class="w-md-80 w-lg-50 text-center mx-auto"&gt;
+                        &lt;img class="w-100 mb-7" src="/assets/flat-icons/data-report-flat-concept-illustration.svg" alt="SVG Illustration"&gt;
+                        &lt;h4 class="h5 font-weight-normal"&gt;All progress, data analysis to tasks in this project will appear here.&lt;/h4&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Content Three --&gt;
+
+                  &lt;!-- Content Four --&gt;
+                  &lt;div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab"&gt;
+                    &lt;div class="text-center py-4"&gt;
+                      &lt;div class="w-md-80 w-lg-50 text-center mx-auto"&gt;
+                        &lt;img class="w-100 mb-7" src="/assets/flat-icons/image-upload-flat-concept-illustration.svg" alt="SVG Illustration"&gt;
+                        &lt;h4 class="h5 font-weight-normal"&gt;All attachments to tasks &amp; conversations in this project will appear here.&lt;/h4&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Content Four --&gt;
+                &lt;/div&gt;
+                &lt;!-- End Nav Content --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <h3 class="h6">CSS library:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css"&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of custom select
+                  $('.js-select').selectpicker();
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="/assets/jquery/dist/jquery.min.js"></script>
+  <script src="/assets/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/assets/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/assets/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="/assets/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="/assets/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../documentation/assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="/assets/hs.core.js"></script>
+  <script src="/assets/components/hs.header.js"></script>
+  <script src="/assets/components/hs.unfold.js"></script>
+  <script src="/assets/components/hs.go-to.js"></script>
+  <script src="/assets/components/hs.scroll-nav.js"></script>
+  <script src="../documentation/assets/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of custom select
+      $('.js-select').selectpicker();
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 767,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>
